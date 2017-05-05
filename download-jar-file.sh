@@ -24,4 +24,4 @@ fi
 JARFILENAME=$1
 JARDOWNLOADURI=$2
 
-wget "$JARDOWNLOADURI" -O $JARFILENAME -p /home/sshadmin/
+wget "$JARDOWNLOADURI" -O /home/sshadmin/$JARFILENAME
